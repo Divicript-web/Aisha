@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carte de Noël</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NEIGE -->
+<div id="snow-layer"></div>
+
+<!-- ÉTOILES -->
+<div id="stars-layer"></div>
+
+<!-- GUIRLANDES -->
+<div id="lights-layer"></div>
+
+<!-- CARTE -->
+<div class="christmas-card">
+    <div class="card-inner">
+        <h1 class="gold-title">✨ Joyeux Noël ✨</h1>
+
+        <!-- Texte typewriter -->
+        <div id="text-container">
+            <p id="text1" class="typewriter-text"></p>
+            <p id="text2" class="typewriter-text"></p>
+            <p id="text3" class="typewriter-text"></p>
+        </div>
+
+        <!-- Message secret -->
+        <p id="secret-message" class="secret-message">
+            Ce message est une pensée sincère venue du fond du coeur. 
+            Que la magie de Noël éclaire ton chemin, réchauffe ton Ame et fasse naitre un sourire sur ton visage.
+            Que chaque instant soit rempli de tendresse, de paix et d'amour infini.
+            Joyeux Noël, tout simplement.
+        </p>
+
+        <!-- Boutons -->
+        <button id="open-secret" class="btn">Afficher le message secret</button>
+        <button id="toggle-lights" class="btn">Allumer les lumières décoratives</button>
+        <button id="play-music" class="btn">Jouer la musique de Noël</button>
+
+        <!-- Signature -->
+        <footer class="signature">
+            ✨ Avec tout mon amour et sincérité ✨ <br>
+             <strong>AISHA</strong> 
+        </footer>
+    </div>
+</div>
+
+<!-- Musiques locales -->
+<audio id="music1" loop muted>
+    <source src="musique1.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="music2" loop muted>
+    <source src="musique2.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
